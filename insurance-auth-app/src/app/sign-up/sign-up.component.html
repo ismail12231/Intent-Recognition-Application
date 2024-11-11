@@ -1,0 +1,36 @@
+<h2>Sign Up</h2>
+<form (ngSubmit)="onSubmit()" #signUpForm="ngForm">
+  <div>
+    <label for="username">Username:</label>
+    <input type="text" id="username" name="username" required [(ngModel)]="user.username" #username="ngModel">
+    <div *ngIf="username.invalid && username.touched" class="error">
+      Username is required.
+    </div>
+  </div>
+
+  <div>
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required [(ngModel)]="user.email" #email="ngModel">
+    <div *ngIf="email.invalid && email.touched" class="error">
+      Valid email is required.
+    </div>
+  </div>
+
+  <div>
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password" required [(ngModel)]="user.password" #password="ngModel">
+    <div *ngIf="password.invalid && password.touched" class="error">
+      Password is required.
+    </div>
+  </div>
+
+  <button type="submit" [disabled]="signUpForm.invalid">Sign Up</button>
+</form>
+
+<!-- Adding some CSS for better visualization -->
+<style>
+  .error {
+    color: red;
+    font-size: 0.9em;
+  }
+</style>
