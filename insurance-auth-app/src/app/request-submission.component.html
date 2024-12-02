@@ -1,0 +1,8 @@
+<div class="request-submission">
+  <form [formGroup]="requestForm" (ngSubmit)="submitRequest()">
+    <label for="requestText">Enter Your Request:</label>
+    <input id="requestText" formControlName="requestText" type="text" />
+    <button type="submit">Submit Request</button>
+  </form>
+  <p *ngIf="responseMessage">{{ responseMessage }}</p>
+</div>

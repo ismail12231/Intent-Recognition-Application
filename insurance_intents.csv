@@ -1,0 +1,81 @@
+text,intent
+"What is the status of my policy?",policy_status_inquiry
+"Can I get a quote for car insurance?",quote_request
+"I need to cancel my health insurance policy.",policy_cancellation
+"How do I file a complaint?",complaint_registration
+"Can you activate my policy?",policy_activation
+"I need information on hospitals covered in the network.",network_information_inquiry
+"What documents are needed for a claim?",claim_documents
+"What's the status of my insurance claim?",claim_status_inquiry
+"How can I make a payment for my policy?",make_payment
+"What are my payment options?",payment_options
+"Can you provide general information about your services?",general_information
+"I want to know my current policy details.",policy_status_inquiry
+"How do I submit a claim?",claim_documents
+"I would like to lodge a complaint regarding your service.",complaint_registration
+"What is the process for activating my new policy?",policy_activation
+"Where can I find information on network hospitals?",network_information_inquiry
+"I need an update on my claim request.",claim_status_inquiry
+"How do I pay my premium?",make_payment
+"What are the available payment methods?",payment_options
+"Please provide a quote for home insurance.",quote_request
+"I want to inquire about my travel insurance.",inquire_travel_insurance
+"Is my claim approved?",claim_status_inquiry
+"Can you help me cancel my life insurance policy?",policy_cancellation
+"What hospitals are included in the coverage?",network_information_inquiry
+"I need assistance with activating my policy.",policy_activation
+"How can I check my policy details?",policy_status_inquiry
+"I need to know about the documents required for a claim.",claim_documents
+"I want to register a complaint.",complaint_registration
+"How do I cancel my policy?",policy_cancellation
+"Can I make an online payment for my premium?",make_payment
+"What payment options do you offer?",payment_options
+"Please give me a quote for motorcycle insurance.",quote_request
+"I need help understanding what is covered in my policy.",general_information
+"How do I know the status of my insurance claim?",claim_status_inquiry
+"Where can I find details on my insurance coverage?",policy_status_inquiry
+"I want to activate my new car insurance policy.",policy_activation
+"Can you tell me how to submit a claim?",claim_documents
+"I need information about the network hospitals for my health insurance.",network_information_inquiry
+"How do I file a formal complaint?",complaint_registration
+"I need a quote for travel insurance.",quote_request
+"How do I pay for my insurance?",make_payment
+"I want to understand the payment plans available.",payment_options
+"What is the status of my travel insurance?",policy_status_inquiry
+"Can I request a new insurance quote for my home?",quote_request
+"I need to file a formal complaint about my recent experience.",complaint_registration
+"What steps should I follow to activate my policy?",policy_activation
+"Where can I locate the network clinics?",network_information_inquiry
+"Can you explain the documents needed for a policy claim?",claim_documents
+"Can I find out if my claim is approved?",claim_status_inquiry
+"Can you tell me about the network hospitals?",network_information_inquiry
+"I would like to reactivate my canceled policy.",policy_activation
+"I want to cancel my car insurance.",policy_cancellation
+"How can I proceed with the premium payment?",make_payment
+"Can I see the available payment plans?",payment_options
+"I need a quote for family health insurance.",quote_request
+"What does my current policy cover?",general_information
+"How do I verify the status of my claim?",claim_status_inquiry
+"Are there any network hospitals available nearby?",network_information_inquiry
+"Can you activate my new life insurance policy?",policy_activation
+"I want to cancel my travel insurance policy.",policy_cancellation
+"How do I get a premium payment receipt?",make_payment
+"Where can I find more details on coverage options?",general_information
+"How do I request cancellation of my existing policy?",policy_cancellation
+"What is my policy coverage?",policy_status_inquiry
+"Can I get an online quote for car insurance?",quote_request
+"Please provide general information about insurance coverage.",general_information
+"How do I register a complaint about an issue I faced?",complaint_registration
+"What payment methods do you accept for premiums?",payment_options
+"Can you provide details on how to activate my policy?",policy_activation
+"I need to submit a claim for my recent accident.",claim_documents
+"Where can I see the network providers covered?",network_information_inquiry
+"What is the process for canceling my insurance?",policy_cancellation
+"I want to know if my claim has been processed.",claim_status_inquiry
+"I need a new insurance policy quote.",quote_request
+"Can you activate my travel insurance policy?",policy_activation
+"How do I make a payment for my policy?",make_payment
+"I need to check the policy status for my health insurance.",policy_status_inquiry
+"Can I file a complaint about my experience with customer service?",complaint_registration
+"I need to inquire about the network hospitals.",network_information_inquiry
+"What documents do I need for my claim?",claim_documents

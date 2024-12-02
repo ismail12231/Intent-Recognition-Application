@@ -1,0 +1,14 @@
+<div class="history">
+  <h2>Request History</h2>
+  <div *ngIf="history.length > 0; else noHistory">
+    <ul>
+      <li *ngFor="let item of history">
+        <strong>Date Submitted:</strong> {{ item.created_at }} <br />
+        <strong>Intent:</strong> {{ item.intent }}
+      </li>
+    </ul>
+  </div>
+  <ng-template #noHistory>
+    <p>No history available.</p>
+  </ng-template>
+</div>
